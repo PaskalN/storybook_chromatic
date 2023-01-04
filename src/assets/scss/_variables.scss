@@ -1,0 +1,7 @@
+:root article.decorator {
+    --main-color: rgb(217, 248, 255);
+}
+
+:root article.decorator.theme-mode__dark {
+    --main-color: rgb(17, 55, 63);
+}
