@@ -3,10 +3,8 @@ import '../../assets/scss/app.scss';
 import { HeaderConsumer } from '../../contexts';
 
 export default class Decor extends React.Component {
-    static darkmoodClassName = 'theme-mode__dark'
-
     useDarkmode(use) {
-        return use ? 'decorator ' + this.darkmoodClassName : 'decorator' 
+        return use ? 'decorator theme-mode__dark decorator' : 'decorator'
     }
 
     render() {
